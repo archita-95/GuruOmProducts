@@ -16,7 +16,7 @@ html {
 }
 
 .timer{
-  font-size: 0.7em;
+  font-size: 1em;
 }
 
 .address{
@@ -42,7 +42,7 @@ html {
 .middle {
   position: absolute;
   /*background-color: rgba(45, 45, 45, 0.5);*/
-  top: 60%;
+  top: 50%;
   left: 50%;
   font-size: 3em;
   color: rgb(131, 50, 50);
@@ -50,13 +50,7 @@ html {
   text-align: center;
 }
 
-.tuned {
-  border: dotted white 6px;
-  
-  border-bottom: none;
-  width: 30%;
-  margin: 100px auto 100px auto;
-}
+
 
 i {
   color: #fff;
@@ -77,12 +71,13 @@ footer {
 
 .bgClip {
   background-position: 0 35%;
-  font-size: 1.3em;
-  color: rgb(214, 213, 210);
+  font-size: 1.7em;
+  color: white;
   padding: 20px 40px;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
+  z-index: 1;
 }
 
 @keyframe BackgroundAnimated {
@@ -188,7 +183,7 @@ footer {
 @media only screen and  (max-width: 1200px) {
   /* For mobile phones: */
   [class*="middle"] {
-    font-size: 1.7em;
+    font-size: 2.5em;
    /* margin-top: 80px;*/
   }
   }
@@ -211,3 +206,7 @@ footer {
     opacity: 0.3;
   }
 
+  .w3-container{
+    z-index: 1;
+    color:white;
+  }
