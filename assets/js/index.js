@@ -1,5 +1,5 @@
 function comingSoon(){
-    var countDownDate = new Date("June 17, 2020 15:37:25").getTime();
+    var countDownDate = new Date("June 19, 2020 15:37:25").getTime();
 
     var countdownfunction = setInterval(function () {
       var now = new Date().getTime();
