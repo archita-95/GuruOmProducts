@@ -10,7 +10,7 @@ html {
   background-position: center;
   background-size: cover;
   position: relative;
-  color: black;
+  color: white;
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
 }
@@ -39,7 +39,7 @@ html {
 }
 
 .tuned {
-  border: dotted black 6px;
+  border: dotted white 6px;
   
   border-bottom: none;
   width: 30%;
@@ -133,8 +133,8 @@ footer {
       transition: color 0.2s;
       &:hover {
         color: #4180cb;
-      }
-    }
+             }
+     }
   }
   .location {
     i {
@@ -144,7 +144,7 @@ footer {
   .copyright p {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
-}
+
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
@@ -155,6 +155,16 @@ footer {
 
   
   }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="middle"] {
+      font-size: 1.8em;
+     /* margin-top: 80px;*/
+    }
+  
+    
+    }
 }
 
 .coming{
@@ -162,3 +172,18 @@ footer {
   top: 50;
   left: 16px;
 }
+
+@media only screen and  ( max-width: 1200px) {
+  /* For mobile phones: */
+  [class*="middle"] {
+    font-size: 1.9em;
+   /* margin-top: 80px;*/
+  }
+  }
+
+  .color-overlay{
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.7;
+  }
