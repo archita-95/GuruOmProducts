@@ -1,0 +1,164 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url("../images/tea4.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  /*background-color: rgba(45, 45, 45, 0.5);*/
+  top: 60%;
+  left: 50%;
+  font-size: 3em;
+  color: rgb(131, 50, 50);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.tuned {
+  border: dotted black 6px;
+  
+  border-bottom: none;
+  width: 30%;
+  margin: 100px auto 100px auto;
+}
+
+i {
+  color: #fff;
+  padding: 2px;
+}
+
+i:hover {
+  color: green;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(45, 38, 112);
+  color: white;
+  font-size: 20px;
+}
+
+.bgClip {
+  background-position: 0 35%;
+  font-size: 1.8em;
+  color: rgb(214, 213, 210);
+  padding: 20px 40px;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+}
+
+@keyframe BackgroundAnimated {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+@-webkit-keyframes BackgroundAnimated {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+@-ms-keyframes BackgroundAnimated {
+  < from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+@-moz-keyframes BackgroundAnimated {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+.footer {
+  background: rgba(26, 24, 36, 0.3);
+  color: #fff;
+
+  .links {
+    ul {
+      list-style-type: none;
+     }
+    li a {
+      color: white;
+      transition: color 0.2s;
+      &:hover {
+        text-decoration: none;
+        color: #4180cb;
+      }
+    }
+  }
+  .about-company {
+    i {
+      font-size: 25px;
+    }
+    a {
+      color: white;
+      transition: color 0.2s;
+      &:hover {
+        color: #4180cb;
+      }
+    }
+  }
+  .location {
+    i {
+      font-size: 18px;
+    }
+  }
+  .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="middle"] {
+    font-size: 1.8em;
+   /* margin-top: 80px;*/
+  }
+
+  
+  }
+}
+
+.coming{
+  position: absolute;
+  top: 50;
+  left: 16px;
+}
